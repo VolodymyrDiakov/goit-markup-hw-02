@@ -1,0 +1,33 @@
+:root{
+    --logo-color: #4D5AE5;
+    --primary-text-color: #2E2F42;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: var(--primary-text-color);
+}
+
+.part-logo{
+    color: var(--logo-color);
+}
+
+.link {
+    text-decoration: none;
+}
+
+.site-logo:active,:focus{
+color: #404BBF;
+}
+
+.main-button{
+cursor: pointer;
+}
+
+.nav-links{
+    list-style-type: none;
+}
+
+.address-links{
+        list-style-type: none;
+    }
